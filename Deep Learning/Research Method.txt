@@ -1,0 +1,94 @@
+* Do Statistical anlysis before and After Channel Reduction
+* Drive Upload
+
+
+Convert the dataset to 1 Dimension than Use the ML to show the results
+
+
+
+
+
+
+Methodology
+
+Artifact Remove
+Reduce the Channels - Auto Encoder (Non Linear https://www.kdnuggets.com/2022/09/dimensionality-reduction-techniques-data-science.html)
+
+Non Linear Dimensionality Reduction Techniques
+1. t-Distributed Stochastic Neighbor Embedding (t-SNE)
+2. Uniform Manifold Approximation and Projection (UMAP)
+3. Autoencoders (Deep Learning)
+4. Isomap (Isometric Mapping)
+5. Locally Linear Embedding (LLE)
+6. Diffusion Maps
+7. Kernel PCA
+8. Self-Organizing Maps (SOMs)
+
+
+Use the Feature Extractors 
+Scalling the new Features
+Cross Validations
+Machine Learning Models
+LSTM - GRU - Deep Neural Network - Hybrid - Ensemble 
+
+
+
+Multi Domain Feature Extraction
+
+
+Time Domain Feature Extracions
+
+1 Power
+2 Entropy
+3 Skewness
+4 Kurtosis
+5 Hjorth parameters Activity
+6 Mobility
+7 Complexity
+8 Detrended fluctuation analysis
+9 Hurst exponent
+10 Zero-crossing rate
+
+
+
+Sub-bands Features - obtained using FFT
+
+delta(0.5–4 Hz), 
+theta (4–8 Hz), 
+Alpha (8–12 Hz), 
+Beta (8–12 Hz),
+Gamma (12–30 Hz)) 
+
+
+Frequency-domain features
+
+1 Spectral centroid
+2 Median frequency weight
+3 Dominant frequency
+4 Mahalanobis distance
+5 PSD parameters: Min.
+6 Max.
+7 Mean
+8 Median
+9 Amplitude local maxima Min. distance between peaks
+10 Max. distance between peaks
+11 Min. peak value
+12 Sum of peak values
+
+
+Table 3: List of scaling’s with their minimum and maximum values
+S. No. Scaling       Min.      Max.
+1 Without-Scaling −0.7078 5350340893.26
+2 Standard-Scaler −2.7982 7.1684
+3 Min-Max-Scaler 0.0 1.0000
+4 Robust-Scaler −2.0564 10.273
+5 Normalizer −1.39e-09 0.9994
+6 Max-Abs-Scaler −0.2700 1.0
+7 Quantile-Transformer 9.9999e-08 0.999
+
+
+
+Evolution Standards -  10-fold validation process
+
+
+

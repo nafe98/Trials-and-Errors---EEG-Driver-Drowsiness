@@ -1,0 +1,28 @@
+"X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)"
+
+This is my dataset. And this is about my dataset:
+
+About Dataset
+The dataset contains EEG signals from 11 subjects with labels of alert and drowsy. It can be opened with Matlab. We extracted the data for our own research purpose from another public dataset:
+
+Cao, Z., et al., Multi-channel EEG recordings during a sustained-attention driving task. Scientific data, 2019. 6(1): p. 1-8.
+
+If you find the dataset useful, please give credits to their works.
+
+The details on how the data were extracted are described in our paper:
+
+"Jian Cui, Zirui Lan, Yisi Liu, Ruilin Li, Fan Li, Olga Sourina, Wolfgang Müller-Wittig, A Compact and Interpretable Convolutional Neural Network for Cross-Subject Driver Drowsiness Detection from Single-Channel EEG, Methods, 2021, ISSN 1046-2023, https://doi.org/10.1016/j.ymeth.2021.04.017."
+
+The codes of the paper above are accessible from:
+
+https://github.com/cuijiancorbin/A-Compact-and-Interpretable-Convolutional-Neural-Network-for-Single-Channel-EEG
+
+The data file contains 3 variables and they are EEGsample, substate and subindex.
+
+"EEGsample" contains 2022 EEG samples of size 20x384 from 11 subjects. Each sample is a 3s EEG data with 128Hz from 30 EEG channels. "subindex" is an array of 2022x1. It contains the subject indexes from 1-11 corresponding to each EEG sample. "substate" is an array of 2022x1. It contains the labels of the samples. 0 corresponds to the alert state and 1 correspond to the drowsy state.
+
+The unbalanced version of this dataset is accessible from: https://figshare.com/articles/dataset/EEG_driver_drowsiness_dataset_unbalanced_/16586957
+
+
+I have done all necessary steps to reach  "X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)"
+this stage. Now I want to make a ensemble deep learning model. First make me an  appropriate ANN code for this dataset. Make the code as if you are ANN expert and researcher from harvard
